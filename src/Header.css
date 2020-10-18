@@ -41,3 +41,9 @@
     width: 15vw;
     margin-right: 80px;
 }
+
+@media screen and (max-width: 480px){
+    .header__center, .header__right {
+        display: none;
+    }
+}

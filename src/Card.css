@@ -12,9 +12,6 @@
 }
 
 .card > img {
-    object-fit: fill;
-    min-width: 300px;
-    min-height: 200px;
     width: 100%;
 }
 

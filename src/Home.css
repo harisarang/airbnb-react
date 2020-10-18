@@ -1,4 +1,11 @@
 .home__section {
     display: flex;
-    padding: 30px;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 480px){
+    .home__section {
+        flex-direction: column;
+    }
 }
